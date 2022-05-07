@@ -16,6 +16,15 @@ background-image: url(./image/pic__COLOR_landing-logo.svg);
 background-repeat: no-repeat;
 background-position: center;
 }
+
+@media screen and (max-width: 320PX){
+ .hedr{
+      background-size: 248px 248px;
+     
+    }
+    
+    
+    }
 .hedr-title{
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
@@ -30,8 +39,19 @@ margin-left: auto;
 margin-right: auto;
 width: 70%;
 text-align: center;
+}
+
+@media screen and (max-width: 320px){
+.hedr-title{
+font-weight: 400px;
+font-size: 31px;
+line-height: 39px;
+}
+
 
 }
+
+
 .tech{
 display: flex;
 flex-direction: column;
@@ -91,6 +111,13 @@ font-style: normal;
 max-width: 460px;
 border-radius: 4px;
 }
+@media screen and (max-width: 320PX){
+  .tech__block{
+ width: 86px;
+    }
+    
+    
+    }
 .tech__block-nametech{
 display: flex;
 margin-left: auto;
@@ -100,6 +127,14 @@ margin-bottom: 100px;
 width: 290px;
 justify-content: space-between;
 }
+@media screen and (max-width: 320PX){
+    .tech__block-nametech{
+    width:266px ;
+
+    }
+}
+    
+   
 .about{
 display: flex;
 flex-direction: column;
@@ -128,6 +163,7 @@ justify-content: center;
  .about__block{
     display: flex ;
  margin-top: 66px;
+ flex-wrap: wrap;
 }
 .about__heading{
     font-family: Arial, Helvetica, sans-serif;
@@ -177,6 +213,8 @@ justify-content: center;
 .about__block-title{
 display: flex;
 flex-direction: column;
+max-width: 844px;
+min-width: 280;
 }
 .about__link-block{
 display: flex;
@@ -266,9 +304,8 @@ line-height: 16px;
     cursor: pointer;
     color: rgb(110, 13, 122); 
 }
-.footer_link:hover{
+.footer_link:hover {
     opacity: 0.6;
     cursor: pointer;
     color: rgb(110, 13, 122); 
 }
-
