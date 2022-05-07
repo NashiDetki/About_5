@@ -17,14 +17,15 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
-@media screen and (max-width: 320PX){
+@media screen and (max-width: 320px){
  .hedr{
       background-size: 248px 248px;
      
     }
     
+}
     
-    }
+    
 .hedr-title{
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
@@ -127,7 +128,7 @@ margin-bottom: 100px;
 width: 290px;
 justify-content: space-between;
 }
-@media screen and (max-width: 320PX){
+@media screen and (max-width: 320px){
     .tech__block-nametech{
     width:266px ;
 
